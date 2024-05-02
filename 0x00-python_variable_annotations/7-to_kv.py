@@ -3,6 +3,8 @@
 type annoted function that a string and a float as arguments and 
 returns a tuple
 """
+
+
 from typing import Union, Tuple
 
 
