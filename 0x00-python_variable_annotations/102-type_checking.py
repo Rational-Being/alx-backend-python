@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-use mypy to validate the following piece of code 
+use mypy to validate the following piece of code
 and apply any nessary changes
 """
 from typing import List, Tuple
@@ -8,7 +8,7 @@ from typing import List, Tuple
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
-    use mypy to validate yhe followoing piece of code 
+    use mypy to validate yhe followoing piece of code
     and apply any neccessary changes 
     """
     zoomed_in: List = [
