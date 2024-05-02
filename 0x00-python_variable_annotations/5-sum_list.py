@@ -11,4 +11,3 @@ def sum_list(input_list: List[float]) -> float:
     takes list of loat as argument
     """
     return float(sum(input_list))
-
