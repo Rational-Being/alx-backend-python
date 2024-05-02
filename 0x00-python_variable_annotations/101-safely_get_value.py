@@ -12,7 +12,8 @@ Def = Union[T, None]
 
 def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
     """
-    given the parameters and the return values, add type annotations to the function
+    given the parameters and the return values, add type
+    annotations to the function
     """
     if key in dct:
         return dct[key]
