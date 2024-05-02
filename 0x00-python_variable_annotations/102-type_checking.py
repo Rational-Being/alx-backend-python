@@ -9,10 +9,10 @@ from typing import List, Tuple
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     use mypy to validate yhe followoing piece of code
-    and apply any neccessary changes 
+    and apply any neccessary changes
     """
     zoomed_in: List = [
-        item for item in lst 
+        item for item in lst
         for i in range(int(factor))
     ]
     return zoomed_in
